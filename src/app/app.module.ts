@@ -27,6 +27,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatSelectModule } from '@angular/material/select';
 import { SideNavComponent } from './components/side-nav/side-nav.component';
 import { AppRoutingModule } from './app-routing.module';
+import { MembersComponent } from './components/members/members.component';
+import { MemberDietStatsComponent } from './components/member-diet-stats/member-diet-stats.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { AppRoutingModule } from './app-routing.module';
     FooterComponent,
     MemberMasterComponent,
     DashboardComponent,
-    SideNavComponent
+    SideNavComponent,
+    MembersComponent,
+    MemberDietStatsComponent
   ],
   imports: [
     BrowserModule,
