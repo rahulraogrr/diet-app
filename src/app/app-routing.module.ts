@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { MemberMasterComponent } from './components/member-master/member-master.component';
+import { MembersComponent } from './components/members/members.component';
+import { MemberDietStatsComponent } from './components/member-diet-stats/member-diet-stats.component';
 
 const routes: Routes = [
-    { path: 'member-master', component: MemberMasterComponent }
+    { path: 'members', component: MembersComponent },
+    { path: 'member-diet-stats', component: MemberDietStatsComponent }
 ];
 
 @NgModule({
