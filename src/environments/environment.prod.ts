@@ -1,5 +1,5 @@
 export const environment = {
-    production: false,
+    production: true,
     activeProfile: 'production',
     apiUrl: 'http://localhost:8085',
     dietServiceContext: '/diet-service',
